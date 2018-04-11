@@ -30,7 +30,7 @@ body {
 }
 .container {
     max-width: 600px;
-    min-width: 500px;
+    min-width: 300px;
     margin: 6px auto;
     box-shadow: 3px 3px 30px rgba(100,100,100,1);
     background: #f66;
@@ -51,7 +51,7 @@ h1 {
 	width: 100%;
 }
 .task-add input{
-	width: 82%;
+	width: 75%;
 	height: 100%;
 	padding: 10px;
 	border: 0;
@@ -63,7 +63,7 @@ h1 {
 	background: white;
 }
 .btn-add{
-	width: 15%;
+	width: 22%;
 	float: right;
 }
 .btn-add,.btn-update{
