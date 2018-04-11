@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo with JQuery</title>
+	<link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/jquery-datetimepicker/2.5.17/jquery.datetimepicker.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="msg">
+	<p></p>
+	<button type="button">我知道了</button>
+</div>
+<div class="mask"></div>
+<div class="container">
+	<h1>备忘录</h1>
+	<div class="task-add clearfix">
+		<form id="add">
+			<input type="text" placeholder="例如 : 下班后买菜 (最多可输入40个字符)" name="content" maxlength="40" title="最多可输入40个字符">
+			<button class="btn-add" type="submit">添加</button>
+		</form>
+	</div>
+	<ul class="task-list">
+<!-- 		<li class="task-li">
+			<input type="checkbox">
+			<span class="task-content">1111</span>
+			<span class="detail">显示详情</span>
+			<span class="delete">删除</span>
+		</li> -->
+	</ul>
+	<div class="detail-show">
+<!-- 		<div class="detail-content">下午记得买菜</div>
+		<textarea>这里可以添加详细内容</textarea><br>
+		<input type="date"><br>
+		<button class="btn-update" type="submit">更新</button> -->
+	</div>
+</div>
+<audio src="alert.mp3" class="alert"></audio>
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-datetimepicker/2.5.17/jquery.datetimepicker.full.min.js"></script>
+<script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script src="https://cdn.bootcss.com/store.js/1.3.20/store.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
