@@ -1,6 +1,8 @@
 # jquery-todo
 预览地址：https://harry0071.github.io/jquery-todo/todo.html
 
+![](http://ww2.sinaimg.cn/large/87c01ec7gy1fq92faytqbj20h40bx0tg.jpg)
+
 ## 用Jquery实现一个todo-list
 主要功能：
 - 设置待办事项
